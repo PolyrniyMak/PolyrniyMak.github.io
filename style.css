@@ -3,6 +3,17 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
-.nav__link{
+.none1{
 	color: #fff;
+	text-decoration: none;
+	font-family: Tahoma;
+	vertical-align: -205px;
+	margin: 427px;
+}
+.none2{
+	color: #fff;
+	text-decoration: none;
+	font-family: Tahoma;
+	vertical-align: -205px;
+	margin: 500px;
 }
