@@ -1,5 +1,8 @@
 body {
-		background-image: url('gori.jpeg'); 
-		background-position: top;
-		background-size: cover;
-	}
+	background-image: url(Gora1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.nav__link{
+	color: #fff;
+}
