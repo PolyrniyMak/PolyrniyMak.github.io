@@ -1,19 +1,93 @@
-body {
+body{
 	background-image: url(Gora1.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-attachment: scroll;
 }
 .none1{
 	color: #fff;
 	text-decoration: none;
 	font-family: Tahoma;
-	vertical-align: -205px;
-	margin: 427px;
+	top:210px;
+	left: 438px;
+	font-size:11px;
+	position: absolute;
 }
+.none1:hover{
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+	font-family: Tahoma;
+	left: none;
+	text-shadow:1px 1px 2px black;
+	transition: all 2s ease 0s;  
+	}
 .none2{
 	color: #fff;
 	text-decoration: none;
 	font-family: Tahoma;
-	vertical-align: -205px;
-	margin: 500px;
+	top:210px;
+	left:490px;
+	font-size:11px;
+	position: absolute;
+	transition: font-size 2s, transform 5s;
+}
+.none2:hover{
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+	font-family: Tahoma;
+	left: none;
+	text-shadow:1px 1px 2px black, 0 0 1em white;
+	transform: rotate(18000deg);
+	}
+.none3{
+	color: #fff;
+	text-decoration: none;
+	font-family: Tahoma;
+	top:210px;
+	right:500px;
+	font-size:11px;
+	position: absolute;
+	animation: anime 2s linear 0s infinite alternate;
+}
+.none3:hover{
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+	font-family: Tahoma;
+	left: none;
+	text-shadow:1px 1px 2px black;
+}
+.none4{
+	color: #fff;
+	text-decoration: none;
+	font-family: Tahoma;
+	top:210px;
+	right:400px;
+	font-size:11px;
+	position: absolute;
+}
+.none4:hover{
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+	font-family: Tahoma;
+	left: none;
+	text-shadow:1px 1px 2px black;
+}
+
+.woman{
+	background-image: url(woman.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: scroll;
+}
+
+@keyframes anime {
+	0% {transform: scale(0);}
+	20% {transform: scale(1);}
+	50% {transform: scale(2);}
+	70% {transform: scale(1);}
+	100% {transform: scale(0);}
 }
