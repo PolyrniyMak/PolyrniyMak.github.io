@@ -1,10 +1,25 @@
 body{
+    margin: 0;
+}
+* {box-sizing: border-box;
+}
+
+
+
+/*=======Header=======*/
+
+.intro {
 	background-image: url(Gora1.jpg);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: scroll;
+	height: 780px;
 }
-.none1{
+
+.header {
+}
+
+.tur{
 	color: #fff;
 	text-decoration: none;
 	font-family: Tahoma;
@@ -12,17 +27,18 @@ body{
 	left: 438px;
 	font-size:11px;
 	position: absolute;
-}
-.none1:hover{
-	color: white;
-	font-size: 12px;
+	}
+.tur:hover{
+	color: black;
+	font-size: 200px;
 	text-decoration: none;
 	font-family: Tahoma;
 	left: none;
-	text-shadow:1px 1px 2px black;
+	text-shadow:1px 1px 2px black, 0 0 10px white;
 	transition: all 2s ease 0s;  
 	}
-.none2{
+
+.foto{
 	color: #fff;
 	text-decoration: none;
 	font-family: Tahoma;
@@ -32,7 +48,7 @@ body{
 	position: absolute;
 	transition: font-size 2s, transform 5s;
 }
-.none2:hover{
+.foto:hover{
 	color: white;
 	font-size: 12px;
 	text-decoration: none;
@@ -41,7 +57,8 @@ body{
 	text-shadow:1px 1px 2px black, 0 0 1em white;
 	transform: rotate(18000deg);
 	}
-.none3{
+
+.us{
 	color: #fff;
 	text-decoration: none;
 	font-family: Tahoma;
@@ -51,7 +68,7 @@ body{
 	position: absolute;
 	animation: anime 2s linear 0s infinite alternate;
 }
-.none3:hover{
+.us:hover{
 	color: white;
 	font-size: 12px;
 	text-decoration: none;
@@ -59,7 +76,8 @@ body{
 	left: none;
 	text-shadow:1px 1px 2px black;
 }
-.none4{
+
+.contact{
 	color: #fff;
 	text-decoration: none;
 	font-family: Tahoma;
@@ -68,7 +86,7 @@ body{
 	font-size:11px;
 	position: absolute;
 }
-.none4:hover{
+.contact:hover{
 	color: white;
 	font-size: 12px;
 	text-decoration: none;
@@ -90,4 +108,12 @@ body{
 	50% {transform: scale(2);}
 	70% {transform: scale(1);}
 	100% {transform: scale(0);}
+}
+
+
+/*=====Container=====*/
+.container {
+	width:100%;
+	max-width: 1170px;
+	margin: 0 auto;
 }
