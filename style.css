@@ -1,119 +1,131 @@
-body{
-    margin: 0;
+body {
+	margin: 0;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
 }
-* {box-sizing: border-box;
+
+*:before,
+*:after {
+	box-sizing: border-box;
 }
 
 
+/*======Container======*/
 
-/*=======Header=======*/
+.container {
+	background-color: white;
+	width: 100%;
+	height: 3200px;
+	background-size: cover;
+	background-position: center center;
+	margin-top: 0px;
+}
 
-.intro {
+
+/*======Header Background======*/
+
+.header__fon {
 	background-image: url(Gora1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: scroll;
 	height: 780px;
+    display: flex;
 }
 
-.header {
+
+/*=====Header Button=====*/
+
+.header__words {
+	padding: 210px 438px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
-.tur{
+.nav {
+	display: flex;
+}
+
+
+.tur {
 	color: #fff;
 	text-decoration: none;
-	font-family: Tahoma;
-	top:210px;
+	font-size:11px;
+	position: absolute;
 	left: 438px;
-	font-size:11px;
-	position: absolute;
-	}
-.tur:hover{
-	color: black;
-	font-size: 200px;
-	text-decoration: none;
-	font-family: Tahoma;
-	left: none;
-	text-shadow:1px 1px 2px black, 0 0 10px white;
-	transition: all 2s ease 0s;  
-	}
+	opacity: 0.95;
+}
 
-.foto{
+
+.foto {
 	color: #fff;
 	text-decoration: none;
-	font-family: Tahoma;
-	top:210px;
-	left:490px;
 	font-size:11px;
 	position: absolute;
-	transition: font-size 2s, transform 5s;
+	left: 490px;
+	opacity: 0.95;
 }
-.foto:hover{
+
+.us {
+	color: #fff;
+	text-decoration: none;
+	font-size:11px;
+	position: absolute;
+	left: 750px;
+	opacity: 0.95;
+}
+
+.contact {
+	color: #fff;
+	text-decoration: none;
+	font-size:11px;
+	position: absolute;
+	left: 802px;
+	opacity: 0.95;
+}
+
+
+
+/*=====Header Button Animation=====*/
+
+.tur:hover {
 	color: white;
 	font-size: 12px;
 	text-decoration: none;
-	font-family: Tahoma;
-	left: none;
-	text-shadow:1px 1px 2px black, 0 0 1em white;
-	transform: rotate(18000deg);
-	}
-
-.us{
-	color: #fff;
-	text-decoration: none;
-	font-family: Tahoma;
-	top:210px;
-	right:500px;
-	font-size:11px;
-	position: absolute;
-	animation: anime 2s linear 0s infinite alternate;
-}
-.us:hover{
-	color: white;
-	font-size: 12px;
-	text-decoration: none;
-	font-family: Tahoma;
-	left: none;
 	text-shadow:1px 1px 2px black;
+	position: absolute;
+	opacity: 1;
+	transition: 0.15s;
 }
 
-.contact{
-	color: #fff;
-	text-decoration: none;
-	font-family: Tahoma;
-	top:210px;
-	right:400px;
-	font-size:11px;
-	position: absolute;
-}
-.contact:hover{
+.foto:hover {
 	color: white;
 	font-size: 12px;
 	text-decoration: none;
-	font-family: Tahoma;
-	left: none;
 	text-shadow:1px 1px 2px black;
+	position: absolute;
+	opacity: 1;
+	transition: 0.15s;
 }
 
-.woman{
-	background-image: url(woman.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-attachment: scroll;
+.us:hover {
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+	text-shadow:1px 1px 2px black;
+	position: absolute;
+	opacity: 1;
+	transition: 0.15s;
 }
 
-@keyframes anime {
-	0% {transform: scale(0);}
-	20% {transform: scale(1);}
-	50% {transform: scale(2);}
-	70% {transform: scale(1);}
-	100% {transform: scale(0);}
-}
-
-
-/*=====Container=====*/
-.container {
-	width:100%;
-	max-width: 1170px;
-	margin: 0 auto;
+.contact:hover {
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+	text-shadow:1px 1px 2px black;
+	position: absolute;
+	opacity: 1;
+	transition: 0.15s;
 }
