@@ -17,7 +17,7 @@ body {
 	width: 100%;
 	height: 3200px;
 	background-size: cover;
-	background-position: center center;
+	background-position: absolute;
 	margin-top: 0px;
 }
 
@@ -31,6 +31,11 @@ body {
 	background-attachment: scroll;
 	height: 780px;
     display: flex;
+    position: relative;
+    max-width: 1264px;
+    margin: auto;
+	display: flex;
+	flex-direction: column;
 }
 
 
@@ -137,12 +142,13 @@ body {
 
 /*=====Текс по середине=====*/
 
-.just__words {
+#just__words {
 	background-color: white;
 	height: 165px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	position: relative;
 }
 
 .text1 {
@@ -192,7 +198,7 @@ body {
 
 /*=====Main Part====*/
 
-.main_fon {
+#main_fon {
 	background-image: url(woman1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -200,10 +206,16 @@ body {
 	width:100%;
 	height: 1375px;
     display: flex;
+    position: relative;
+    max-width: 1300px;
+    margin: auto;
+	display: flex;
+	flex-direction: column;
+	
 }
 
 
-.main_words {
+#main_words {
 	display: flex;
 	padding: 70px 0;
 }
@@ -393,13 +405,13 @@ body {
 
 
 
-.main_text {
+#main_text {
 	height: 165px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	padding-top: 220px;
-	width: 100%
+	width: 100%;
 }
 
 .Vel {
