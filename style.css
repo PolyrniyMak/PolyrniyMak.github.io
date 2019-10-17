@@ -30,9 +30,9 @@ body {
 	background-size: cover;
 	background-attachment: scroll;
 	height: 780px;
-    display: flex;
     position: relative;
-    max-width: 1264px;
+    width: 100%;
+    max-width: 1300px;
     margin: auto;
 	display: flex;
 	flex-direction: column;
@@ -47,6 +47,7 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+    width: 100%;
 }
 
 .nav {
@@ -211,7 +212,7 @@ body {
     margin: auto;
 	display: flex;
 	flex-direction: column;
-	
+
 }
 
 
