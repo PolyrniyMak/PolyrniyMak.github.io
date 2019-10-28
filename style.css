@@ -150,6 +150,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	position: relative;
+	margin-bottom: 10px;
 }
 
 .text1 {
@@ -197,213 +198,8 @@ body {
 	}
 
 
-/*=====Main Part====*/
-
-#main_fon {
-	background-image: url(woman1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: scroll;
-	width:100%;
-	height: 1375px;
-    display: flex;
-    position: relative;
-    max-width: 1300px;
-    margin: auto;
-	display: flex;
-	flex-direction: column;
-
-}
-
-
-#main_words {
-	display: flex;
-	padding: 70px 0;
-}
-
-
-/*=====Main_nav=====*/
-
-.Kavkaz {
-	color: black;
-	text-decoration: none;
-	font-size:15px;
-	position: absolute;
-	left: 205px;
-	color: #654321;
-	font-weight: bold;
-}
-
-.Ural {
-	color: black;
-	text-decoration: none;
-	font-size:15px;
-	position: absolute;
-	left: 290px;
-	color: #654321;
-	font-weight: bold;
-}
-
-.Krim {
-	color: black;
-	text-decoration: none;
-	font-size:15px;
-	position: absolute;
-	left: 360px;
-	color: #654321;
-	font-weight: bold;
-}
-
-.Armenia {
-	color: black;
-	text-decoration: none;
-	font-size:15px;
-	position: absolute;
-	left: 434px;
-	color: #654321;
-	font-weight: bold;
-}
-
-.Karpat {
-	color: black;
-	text-decoration: none;
-	font-size:15px;
-	position: absolute;
-	left: 536px;
-	color: #654321;
-	font-weight: bold;
-}
-
-.Asia {
-	color: black;
-	text-decoration: none;
-	font-size:15px;
-	position: absolute;
-	left: 633px;
-	color: #654321;
-	font-weight: bold;
-}
-
-.Turzia {
-	color: black;
-	text-decoration: none;
-	font-size:15px;
-	position: absolute;
-	left: 770px;
-	color: #654321;
-	font-weight: bold;
-}
-
-.Norvegia {
-	color: black;
-	text-decoration: none;
-	font-size:15px;
-	position: absolute;
-	left: 860px;
-	color: #654321;
-	font-weight: bold;
-}
-
-.Islandia {
-	color: black;
-	text-decoration: none;
-	font-size:15px;
-	position: absolute;
-	left: 965px;
-	color: #654321;
-	font-weight: bold;
-}
-
-
-
-
-   /*======Animation for main_nav======*/
-
- .Kavkaz:hover {
-	color: #d22d11;
-	font-size: 16px;
-	text-decoration: none;
-	text-shadow:1px 1px 2px white, 0 0 1em pink;
-	position: absolute;
-	transition: 0.2s;
-}
-
-.Ural:hover {
-	color: #d22d11;
-	font-size: 16px;
-	text-decoration: none;
-	text-shadow:1px 1px 2px white, 0 0 1em pink;
-	position: absolute;
-	transition: 0.2s;
-}
-
-.Krim:hover {
-	color: #d22d11;
-	font-size: 16px;
-	text-decoration: none;
-	text-shadow:1px 1px 2px white, 0 0 1em pink;
-	position: absolute;
-	transition: 0.2s;
-}
-
-.Armenia:hover {
-	color: #d22d11;
-	font-size: 16px;
-	text-decoration: none;
-	text-shadow:1px 1px 2px white, 0 0 1em pink;
-	position: absolute;
-	transition: 0.2s;
-}
-
-.Karpat:hover {
-	color: #d22d11;
-	font-size: 16px;
-	text-decoration: none;
-	text-shadow:1px 1px 2px white, 0 0 1em pink;
-	position: absolute;
-	transition: 0.2s;
-}
-
-.Asia:hover {
-	color: #d22d11;
-	font-size: 16px;
-	text-decoration: none;
-	text-shadow:1px 1px 2px white, 0 0 1em pink;
-	position: absolute;
-	transition: 0.2s;
-}
-
-.Turzia:hover {
-	color: #d22d11;
-	font-size: 16px;
-	text-decoration: none;
-	text-shadow:1px 1px 2px white, 0 0 1em pink;
-	position: absolute;
-	transition: 0.2s;
-}
-
-.Norvegia:hover {
-	color: #d22d11;
-	font-size: 16px;
-	text-decoration: none;
-	text-shadow:1px 1px 2px white, 0 0 1em pink;
-	position: absolute;
-	transition: 0.2s;
-}
-
-.Islandia:hover {
-	color: #d22d11;
-	font-size: 16px;
-	text-decoration: none;
-	text-shadow:1px 1px 2px white, 0 0 1em pink;
-	position: absolute;
-	transition: 0.2s;
-}
-
-
 
        /*======Текст======*/
-
 
 
 #main_text {
@@ -411,7 +207,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding-top: 220px;
+	padding-top: 120px;
 	width: 100%;
 }
 
@@ -433,4 +229,209 @@ body {
 	margin-top: 0;
 	color: white;
 	font-weight: bold;
+}
+
+
+
+
+           /*======Контент меню======*/
+
+
+#main_fon {
+	background-image: url(woman1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	width:100%;
+	height: 1375px;
+    display: flex;
+    position: relative;
+    max-width: 1300px;
+    margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.contentmenu {
+	font-size: 16px;
+	height: 50px;
+	text-align: center;
+}
+
+.main_fon {
+	background-image: url(woman1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	width:100%;
+	height: 1375px;
+    display: flex;
+    position: relative;
+    max-width: 1300px;
+    margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+ul.main-navigation {
+	padding: 0;
+}
+
+ul.main-navigation li {
+    display: block;
+    position: relative;
+    float: left;
+    padding: 1.1%;
+   }
+
+.contentmenu {
+	margin-left: 13em;
+}
+
+#Kavkaz {
+	text-decoration: none;
+	font-size:15px;
+	position: relative;
+	color: #654321;
+	font-weight: bold;
+}
+
+#Ural {
+	text-decoration: none;
+	font-size:15px;
+	position: relative;
+	color: #654321;
+	font-weight: bold;
+}
+
+#Krim {
+	text-decoration: none;
+	font-size:15px;
+	position: relative;
+	color: #654321;
+	font-weight: bold;
+}
+
+#Armenia {
+	text-decoration: none;
+	font-size:15px;
+	position: relative;
+	color: #654321;
+	font-weight: bold;
+}
+
+#Karpat {
+	text-decoration: none;
+	font-size:15px;
+	position: relative;
+	color: #654321;
+	font-weight: bold;
+}
+
+#Asia {
+	text-decoration: none;
+	font-size:15px;
+	position: relative;
+	color: #654321;
+	font-weight: bold;
+}
+
+#Turzia {
+	text-decoration: none;
+	font-size:15px;
+	position: relative;
+	color: #654321;
+	font-weight: bold;
+}
+
+#Norvegia {
+	text-decoration: none;
+	font-size:15px;
+	position: relative;
+	color: #654321;
+	font-weight: bold;
+}
+
+#Islandia {
+	text-decoration: none;
+	font-size:15px;
+	position: relative;
+	color: #654321;
+	font-weight: bold;
+}
+
+
+
+   /*======Animation for contentmenu======*/
+
+ #Kavkaz:hover {
+	color: #d22d11;
+	text-decoration: none;
+	text-shadow:0px 1px 2px white, 0 0 1em pink;
+	position: relative;
+	transition: 0.2s;
+}
+
+#Ural:hover {
+    color: #d22d11;
+	text-decoration: none;
+	text-shadow:0px 1px 2px white, 0 0 1em pink;
+	position: relative;
+	transition: 0.2s;}
+
+#Krim:hover {
+    color: #d22d11;
+	text-decoration: none;
+	text-shadow:0px 1px 2px white, 0 0 1em pink;
+	position: relative;
+	transition: 0.2s;
+}
+
+#Armenia:hover {
+	color: #d22d11;
+	text-decoration: none;
+	text-shadow:0px 1px 2px white, 0 0 1em pink;
+	position: relative;
+	transition: 0.2s;
+}
+
+#Karpat:hover {
+	color: #d22d11;
+	text-decoration: none;
+	text-shadow:0px 1px 2px white, 0 0 1em pink;
+	position: relative;
+	transition: 0.2s;
+}
+
+#Asia:hover {
+	color: #d22d11;
+	text-decoration: none;
+	text-shadow:0px 1px 2px white, 0 0 1em pink;
+	position: relative;
+	transition: 0.2s;
+}
+
+#Turzia:hover {
+	color: #d22d11;
+	text-decoration: none;
+	text-shadow:0px 1px 2px white, 0 0 1em pink;
+	position: relative;
+	transition: 0.2s;
+}
+
+#Norvegia:hover {
+	color: #d22d11;
+	text-decoration: none;
+	text-shadow:0px 1px 2px white, 0 0 1em pink;
+	position: relative;
+	transition: 0.2s;
+}
+
+#Islandia:hover {
+	color: #d22d11;
+	text-decoration: none;
+	text-shadow:0px 1px 2px white, 0 0 1em pink;
+	position: relative;
+	transition: 0.2s;
 }
