@@ -409,10 +409,10 @@ ul.main-navigation li {
 
 #KavkazText {
 	height: 165px;
-	display: none;
+	display: block;
 	flex-direction: column;
 	justify-content: center;
-	padding-top: 152px;
+	padding-top: 198px;
 	width: 100%;
 }
 
@@ -427,6 +427,7 @@ ul.main-navigation li {
 	margin-top: 0;
 	color: white;
 	margin-bottom: 10px;
+	opacity: 0.85;
 }
 
 .Kavkaz_word {
@@ -437,5 +438,6 @@ ul.main-navigation li {
 	margin-top: 0;
 	color: white;
 	font-weight: bold;
+	opacity: 0.99;
 }
 
