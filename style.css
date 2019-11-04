@@ -409,7 +409,7 @@ ul.main-navigation li {
 
 #KavkazText {
 	height: 165px;
-	display: block;
+	display: none;
 	flex-direction: column;
 	justify-content: center;
 	padding-top: 198px;
