@@ -409,7 +409,7 @@ ul.main-navigation li {
 
 #KavkazText {
 	height: 165px;
-	display: none;
+	display: block;
 	flex-direction: column;
 	justify-content: center;
 	padding-top: 198px;
@@ -652,9 +652,9 @@ ul.main-navigation li {
 	color: white;
     font-size: 13px;
     font-family: 'Noto Sans', sans-serif;
-    padding-top: 1.83em;
-    margin: 0;
     padding-top: 1.61em;
+    margin: 0;
+    
 }
 
 .Arabika {
@@ -688,9 +688,8 @@ ul.main-navigation li {
 	color: white;
     font-size: 13px;
     font-family: 'Noto Sans', sans-serif;
-    padding-top: 1.83em;
-    margin: 0;
     padding-top: 1.61em;
+    margin: 0;
 }
 
 .Svanetia {
@@ -724,9 +723,8 @@ ul.main-navigation li {
 	color: white;
     font-size: 13px;
     font-family: 'Noto Sans', sans-serif;
-    padding-top: 1.7em;
+    padding-top: 1.63em;
     margin: 0;
-    padding-top: 1.61em;
 }
 
 .Rising {
@@ -761,9 +759,8 @@ ul.main-navigation li {
 	color: white;
     font-size: 13px;
     font-family: 'Noto Sans', sans-serif;
-    padding-top: 1.8em;
+    padding-top: 1.63em;
     margin: 0;
-    padding-top: 1.61em;
 }
 
 .Elbrus {
@@ -797,9 +794,8 @@ ul.main-navigation li {
 	color: white;
     font-size: 13px;
     font-family: 'Noto Sans', sans-serif;
-    padding-top: 1.8em;
-    margin: 0;
     padding-top: 1.61em;
+    margin: 0;
 }
 
 .Route {
