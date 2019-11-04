@@ -248,7 +248,7 @@ ul.main-navigation li {
    }
 
 .contentmenu {
-	margin-left: 13em;
+	margin-left: 13.5em;
 }
 
 #Kavkaz {
@@ -417,27 +417,434 @@ ul.main-navigation li {
 }
 
 
-
-
 .Vel {
 	font-family: 'Noto Sans', sans-serif;
 	text-align: center;
-	font-size: 15px;
+	font-size: 12px;
 	margin: 0;
 	margin-top: 0;
 	color: white;
-	margin-bottom: 10px;
-	opacity: 0.85;
+	margin-bottom: 1px;
+	opacity: 0.90;
+	letter-spacing: 1px;
+	font-weight: normal;
 }
 
 .Kavkaz_word {
 	font-family: 'Cormorant Garamond', serif;
 	text-align: center;
-	font-size: 50px;
+	font-size: 54px;
 	margin: 0;
 	margin-top: 0;
 	color: white;
 	font-weight: bold;
 	opacity: 0.99;
+	letter-spacing: 5px;
 }
 
+
+
+.Some_words {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 8px;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words2 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words3 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	color: white;
+	opacity: 0.85;
+}
+
+    /*=======Кнопка узнать больше======*/
+
+
+
+.More {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.FindOutMore {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	opacity: 0.92;
+	font-size:12px;
+	position: relative;
+	color: white;
+	border: 1.1px dashed #FFBB3E;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 19px;
+	padding-left: 19px;
+}
+
+.FindOutMore:hover {
+	background: #FFBB3E;
+	color: black;
+	transition: 0.3s;
+    text-shadow:0px 1px 2px white;
+}
+
+
+
+     /*========Походы=======*/
+
+.UpcomingHikes {
+	display: inline-block;
+	display: flex;
+}
+
+.UpcomingHikesNavigation {
+	width: 44%;
+	padding-top: 8em;
+	text-align: right;
+}
+
+.Upcoming {
+	color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
+}
+
+.Hikes {
+	color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
+
+          /*======Даты походов======*/
+
+
+
+.Date1 {
+	width: 7%;
+	display: inline-block;
+	display: flex;
+}
+   
+
+.TextForDate {
+	width: 49%;
+	display: inline-block;
+	display: flex;
+}
+
+.TextForDate1Navigation {
+	text-align: left;
+	padding-top: 7.7em;
+	margin-left: 0.3em;
+	position: absolute;
+}
+
+   /*======Текст для первой даты======*/
+
+.Number1 {
+	color: white;
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding-top: 1.95em;
+    padding-left: 0.7em;
+}
+
+.Month1 {
+	color: white;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+.BlueLake {
+	color: white;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    opacity: 0.93px;
+    margin-top: 0.2em;
+}
+
+.Arhisa {
+	color: white;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    opacity: 0.93px;
+}
+
+
+     /*======Текст для второй даты======*/
+
+.Number2 {
+	color: white;
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding-left: 0.7em;
+}
+
+.Month2 {
+	color: white;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 1.7em;
+    margin: 0;
+}
+
+.HotSprings {
+	color: white;
+	font-weight: bold;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    margin-top: 0.2em;
+}
+
+.Kavkaza1 {
+	color: white;
+	font-weight: bold;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
+
+     /*======Текст для третей даты======*/
+
+.Number3 {
+	color: white;
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding-left: 0.7em;
+}
+
+.Month3 {
+	color: white;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 1.83em;
+    margin: 0;
+    padding-top: 1.61em;
+}
+
+.Arabika {
+	color: white;
+	font-weight: bold;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    margin-top: 0.2em;
+}
+
+.Abhazia {
+	color: white;
+	font-weight: bold;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+      /*======Текст для четвертой даты======*/
+
+.Number4 {
+	color: white;
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding-left: 0.7em;
+}
+
+.Month4 {
+	color: white;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 1.83em;
+    margin: 0;
+    padding-top: 1.61em;
+}
+
+.Svanetia {
+	color: white;
+	font-weight: bold;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    margin-top: 0.2em;
+}
+
+.Gruzia {
+	color: white;
+	font-weight: bold;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+      /*======Текст для пятой даты======*/
+
+.Number5 {
+	color: white;
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding-left: 0.7em;
+}
+
+.Month5 {
+	color: white;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 1.7em;
+    margin: 0;
+    padding-top: 1.61em;
+}
+
+.Rising {
+	color: white;
+	font-weight: bold;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    margin-top: 0.2em;
+}
+
+.OnElbrus {
+	color: white;
+	font-weight: bold;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
+      /*======Текст для шестой даты======*/
+
+.Number6 {
+	color: white;
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding-left: 0.7em;
+}
+
+.Month6 {
+	color: white;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 1.8em;
+    margin: 0;
+    padding-top: 1.61em;
+}
+
+.Elbrus {
+	color: white;
+	font-weight: bold;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    margin-top: 0.2em;
+}
+
+.FromNorth {
+	color: white;
+	font-weight: bold;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+      /*======Текст для седьмой даты======*/
+
+.Number7 {
+	color: white;
+    font-size: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding-left: 0.7em;
+}
+
+.Month7 {
+	color: white;
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 1.8em;
+    margin: 0;
+    padding-top: 1.61em;
+}
+
+.Route {
+	color: white;
+	font-weight: bold;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    margin-top: 0.2em;
+}
+
+.Thirty {
+	color: white;
+	font-weight: bold;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
+    /*======Узнать все даты походов*/
+
+.FindOutAllHikingDates{
+	padding-top: 1em;
+	text-align: center;
+	padding-left: 6em;
+}
+
+.AllDates {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+	border: 1.1px double white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 12px;
+	padding-left: 12px;
+	position: relative;
+}
+
+
+.AllDates:hover {
+	background: white;
+	color: black;
+	transition: 0.3s;
+}
