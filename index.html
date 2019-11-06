@@ -42,8 +42,8 @@
      <div class="main_fon">
         <div class="contentmenu">
             <ul class="main-navigation">
-                <li><a id="Kavkaz" href="#KavkazText" onmousedown="viewDiv1()">КАВКАЗ</a></li>
-                <li><a id="Ural" href="#">УРАЛ</a></li>
+                <li><a id="Kavkaz" href="#KavkazText" onmousedown="viewDiv1('KavkazText')">КАВКАЗ</a></li>
+                <li><a id="Ural" href="#UralText" onmousedown="viewDiv1('UralText')">УРАЛ</a></li>
                 <li><a id="Krim" href="#">КРЫМ</a></li>
                 <li><a id="Armenia" href="#">АРМЕНИЯ</a></li>
                 <li><a id="Karpat" href="#">КАРПАТЫ</a></li>
@@ -56,9 +56,16 @@
 
 
                  <!-- KavkazText -->
+
+
            <script> 
-               function viewDiv1(){
-                document.getElementById("KavkazText").style.display = "block";
+               function viewDiv1(idblock){
+                list = ["KavkazText", "UralText"];
+               // , "ArmeniaText", "KarpatText", "AsiaText", "TurziaText", "NorvegiaText", "IslandiaText"];
+                for (var i = 0; i < list.length; i++) { 
+                    document.getElementById(list[i]).style.display = "none";
+                }
+                document.getElementById(idblock).style.display = "block";
                };      
 
              </script> 
@@ -139,6 +146,23 @@
           
 
         </div>
+
+
+                             <!-- UralText -->
+
+        <script> 
+            function viewDiv2(){
+            document.getElementById("UralText").style.display = "block";
+               };      
+        </script>
+
+
+        <div id="UralText">
+              <h3 class="Vel">ВЕЛИКИЙ</h3>
+              <h1 class="Kavkaz_word">УРАЛ</h1>
+              <h1 class="Some_words">Тридцатка / Восхождение на Эльбрус / Сванетия (Грузия) / Восхождение на Казбек</h1>
+              <h1 class="Some_words2">Теберда-Архыз / Приэльбрусье / Горячие источники Кавказа / Эльбрус с севера</h1>
+              <h1 class="Some_words3">Голубые озера Архыза / Авадхара (Абхазия) / Арабика и Рица (Абхазия)</h1>
 
 
 
