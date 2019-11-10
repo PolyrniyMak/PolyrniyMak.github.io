@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <title>Турпоходы в горы</title>
@@ -15,7 +16,7 @@
             <div class="header__fon">
                 <div class="header__words">
                     <nav class="nav">
-                       <a class="tur" href="#">ТУРЫ</a>
+                       <a class="tur" href="#main_fon">ТУРЫ</a>
                         <a class="foto" href="#">ФОТООТЧЕТЫ</a>
                         <a class="us" href="#">О НАС</a>
                         <a class="contact" href="#">КОНТАКТЫ</a>
@@ -39,18 +40,18 @@
              <!--======Главная часть======-->
 
 
-     <div class="main_fon">
+     <div id="main_fon">
         <div class="contentmenu">
             <ul class="main-navigation">
                 <li><a id="Kavkaz" href="#KavkazText" onmousedown="viewDiv1('KavkazText')">КАВКАЗ</a></li>
                 <li><a id="Ural" href="#UralText" onmousedown="viewDiv1('UralText')">УРАЛ</a></li>
-                <li><a id="Krim" href="#">КРЫМ</a></li>
-                <li><a id="Armenia" href="#">АРМЕНИЯ</a></li>
-                <li><a id="Karpat" href="#">КАРПАТЫ</a></li>
-                <li><a id="Asia" href="#">СРЕДНЯЯ АЗИЯ</a></li>
-                <li><a id="Turzia" href="#">ТУРЦИЯ</a></li>
-                <li><a id="Norvegia" href="#">НОРВЕГИЯ</a></li>
-                <li><a id="Islandia" href="#">ИСЛАНДИЯ</a></li>
+                <li><a id="Krim" href="#KrimText" onmousedown="viewDiv1('KrimText')" >КРЫМ</a></li>
+                <li><a id="Armenia" href="#ArmeniaText" onmousedown="viewDiv1('ArmeniaText')">АРМЕНИЯ</a></li>
+                <li><a id="Karpat" href="#KarpatText" onmousedown="viewDiv1('KarpatText')">КАРПАТЫ</a></li>
+                <li><a id="Asia" href="#AsiaText" onmousedown="viewDiv1('AsiaText')">СРЕДНЯЯ АЗИЯ</a></li>
+                <li><a id="Turzia" href="#TurziaText" onmousedown="viewDiv1('TurziaText')">ТУРЦИЯ</a></li>
+                <li><a id="Norvegia" href="#NorvegiaText" onmousedown="viewDiv1('NorvegiaText')">НОРВЕГИЯ</a></li>
+                <li><a id="Islandia" href="#IslandiaText" onmousedown="viewDiv1('IslandiaText')">ИСЛАНДИЯ</a></li>
             </ul>
         </div>
 
@@ -60,7 +61,7 @@
 
            <script> 
                function viewDiv1(idblock){
-                list = ["KavkazText", "UralText"];
+                list = ["KavkazText", "UralText", "KrimText", "ArmeniaText", "KarpatText", "AsiaText", "TurziaText", "NorvegiaText", "IslandiaText"];
                // , "ArmeniaText", "KarpatText", "AsiaText", "TurziaText", "NorvegiaText", "IslandiaText"];
                 for (var i = 0; i < list.length; i++) { 
                     document.getElementById(list[i]).style.display = "none";
@@ -148,24 +149,601 @@
         </div>
 
 
+
+
                              <!-- UralText -->
 
-        <script> 
-            function viewDiv2(){
-            document.getElementById("UralText").style.display = "block";
-               };      
-        </script>
-
-
         <div id="UralText">
-              <h3 class="Vel">ВЕЛИКИЙ</h3>
-              <h1 class="Kavkaz_word">УРАЛ</h1>
-              <h1 class="Some_words">Тридцатка / Восхождение на Эльбрус / Сванетия (Грузия) / Восхождение на Казбек</h1>
-              <h1 class="Some_words2">Теберда-Архыз / Приэльбрусье / Горячие источники Кавказа / Эльбрус с севера</h1>
-              <h1 class="Some_words3">Голубые озера Архыза / Авадхара (Абхазия) / Арабика и Рица (Абхазия)</h1>
+              <h3 class="Vel2">ВЕЛИКИЙ</h3>
+              <h1 class="Ural_word">УРАЛ</h1>
+              <h1 class="Some_words2_1">На перевал Дятлова / На плато Маньпупунёр / Сплав по реке Земли / Национальный парк Таганай</h1>
+              <h1 class="Some_words2_2">Отдых на южном Урале / Сплав по реке Агидель / Сплав по реке Сакмара / Башкирия на ладони</h1>
+              <h1 class="Some_words2_3">Этно-тур по Башкирии "Шульган-таш (Капова пещера) / Южноуральские изюминки</h1>
+
+                <div class="More2">
+                   <a class="FindOutMore2" href="#">УЗНАТЬ ПОДРОБНЕЕ</a>
+                </div>
+
+
+            <div class="UpcomingHikes">
+                <div class="UpcomingHikesNavigation">
+                   <p class="Upcoming">БЛИЖАЙШИЕ</p>
+                   <p class="Hikes">ПОХОДЫ</p>
+                </div>
+
+                 <div class="Date1">
+                        <div class="DateNavigation">
+                          <p class="Number1">06</p>
+                          <p class="Number2">12</p>
+                          <p class="Number3">25</p>
+                          <p class="Number4">01</p>
+                          <p class="Number5">07</p>
+                          <p class="Number6">18</p>
+                          <p class="Number7">23</p>
+                        </div>
+                 </div>
+
+                    <div class="TextForDate">
+                         <div class="TextForDate1Navigation">
+
+                           <p class="Month1">июня</p>
+                           <p class="BlueLake">НА ПЕРЕВАЛ</p>
+                           <p class="Arhisa">ДЯТЛОВА</p>
+
+
+                           <p class="Month2">июня</p>
+                           <p class="HotSprings">НА ПЛАТО</p>
+                           <p class="Kavkaza1">МАНЬПУПУНЁР</p>
+
+
+                           <p class="Month3">июня</p>
+                           <p class="Arabika">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Abhazia">ЗЕЛИМ</p>
+
+                           <p class="Month4">июля</p>
+                           <p class="Svanetia">НАЦИОНАЛЬНЫЙ ПАРК</p>
+                           <p class="Gruzia">ТАГАНАЙ</p>
+
+                           <p class="Month5">июля</p>
+                           <p class="Rising">ОТДЫХ</p>
+                           <p class="OnElbrus">НА ЮЖНОМ УРАЛЕ</p>
+
+                           <p class="Month6">июля</p>
+                           <p class="Elbrus">СПЛАВ ПО РЕКЕ</p>
+                           <p class="FromNorth">АГИДЕЛЬ</p>
+
+                           <p class="Month7">июля</p>
+                           <p class="Route">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Thirty">САКМАРА</p>
+
+                         </div>
+                    </div>
+                </div>
+                           <div class="FindOutAllHikingDates2">
+                               <a class="AllDates2" href="#">УЗНАТЬ ВСЕ ДАТЫ ПОХОДОВ</a>
+                           </div>
+        </div>
+
+
+                                    <!-- KrimText -->
+
+        <div id="KrimText">
+              <h1 class="Krim_word">КРЫМ</h1>
+              <h1 class="Some_words3_1">На перевал Дятлова / На плато Маньпупунёр / Сплав по реке Земли / Национальный парк Таганай</h1>
+              <h1 class="Some_words3_2">Отдых на южном Урале / Сплав по реке Агидель / Сплав по реке Сакмара / Башкирия на ладони</h1>
+              <h1 class="Some_words3_3">Этно-тур по Башкирии "Шульган-таш (Капова пещера) / Южноуральские изюминки</h1>
+
+                <div class="More3">
+                   <a class="FindOutMore3" href="#">УЗНАТЬ ПОДРОБНЕЕ</a>
+                </div>
+
+
+            <div class="UpcomingHikes">
+                <div class="UpcomingHikesNavigation">
+                   <p class="Upcoming">БЛИЖАЙШИЕ</p>
+                   <p class="Hikes">ПОХОДЫ</p>
+                </div>
+
+                 <div class="Date1">
+                        <div class="DateNavigation">
+                          <p class="Number1">07</p>
+                          <p class="Number2">14</p>
+                          <p class="Number3">26</p>
+                          <p class="Number4">02</p>
+                          <p class="Number5">03</p>
+                          <p class="Number6">15</p>
+                          <p class="Number7">20</p>
+                        </div>
+                 </div>
+
+                    <div class="TextForDate">
+                         <div class="TextForDate1Navigation">
+
+                           <p class="Month1">июня</p>
+                           <p class="BlueLake">НА ПЕРЕВАЛ</p>
+                           <p class="Arhisa">ДЯТЛОВА</p>
+
+
+                           <p class="Month2">июня</p>
+                           <p class="HotSprings">НА ПЛАТО</p>
+                           <p class="Kavkaza1">МАНЬПУПУНЁР</p>
+
+
+                           <p class="Month3">июня</p>
+                           <p class="Arabika">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Abhazia">ЗЕЛИМ</p>
+
+                           <p class="Month4">июля</p>
+                           <p class="Svanetia">НАЦИОНАЛЬНЫЙ ПАРК</p>
+                           <p class="Gruzia">ТАГАНАЙ</p>
+
+                           <p class="Month5">июля</p>
+                           <p class="Rising">ОТДЫХ</p>
+                           <p class="OnElbrus">НА ЮЖНОМ УРАЛЕ</p>
+
+                           <p class="Month6">июля</p>
+                           <p class="Elbrus">СПЛАВ ПО РЕКЕ</p>
+                           <p class="FromNorth">АГИДЕЛЬ</p>
+
+                           <p class="Month7">июля</p>
+                           <p class="Route">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Thirty">САКМАРА</p>
+
+                         </div>
+                    </div>
+                </div>
+                           <div class="FindOutAllHikingDates3">
+                               <a class="AllDates3" href="#">УЗНАТЬ ВСЕ ДАТЫ ПОХОДОВ</a>
+                           </div>
+        </div>
+
+
+                            <!-- ArmeniaText -->
+
+        <div id="ArmeniaText">
+              <h1 class="Armenia_word">АРМЕНИЯ</h1>
+              <h1 class="Some_words4_1">На перевал Дятлова / На плато Маньпупунёр / Сплав по реке Земли / Национальный парк Таганай</h1>
+              <h1 class="Some_words4_2">Отдых на южном Урале / Сплав по реке Агидель / Сплав по реке Сакмара / Башкирия на ладони</h1>
+              <h1 class="Some_words4_3">Этно-тур по Башкирии "Шульган-таш (Капова пещера) / Южноуральские изюминки</h1>
+
+                <div class="More4">
+                   <a class="FindOutMore4" href="#">УЗНАТЬ ПОДРОБНЕЕ</a>
+                </div>
+
+
+            <div class="UpcomingHikes">
+                <div class="UpcomingHikesNavigation">
+                   <p class="Upcoming">БЛИЖАЙШИЕ</p>
+                   <p class="Hikes">ПОХОДЫ</p>
+                </div>
+
+                 <div class="Date1">
+                        <div class="DateNavigation">
+                          <p class="Number1">08</p>
+                          <p class="Number2">15</p>
+                          <p class="Number3">27</p>
+                          <p class="Number4">03</p>
+                          <p class="Number5">04</p>
+                          <p class="Number6">16</p>
+                          <p class="Number7">21</p>
+                        </div>
+                 </div>
+
+                    <div class="TextForDate">
+                         <div class="TextForDate1Navigation">
+
+                           <p class="Month1">июня</p>
+                           <p class="BlueLake">НА ПЕРЕВАЛ</p>
+                           <p class="Arhisa">ДЯТЛОВА</p>
+
+
+                           <p class="Month2">июня</p>
+                           <p class="HotSprings">НА ПЛАТО</p>
+                           <p class="Kavkaza1">МАНЬПУПУНЁР</p>
+
+
+                           <p class="Month3">июня</p>
+                           <p class="Arabika">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Abhazia">ЗЕЛИМ</p>
+
+                           <p class="Month4">июля</p>
+                           <p class="Svanetia">НАЦИОНАЛЬНЫЙ ПАРК</p>
+                           <p class="Gruzia">ТАГАНАЙ</p>
+
+                           <p class="Month5">июля</p>
+                           <p class="Rising">ОТДЫХ</p>
+                           <p class="OnElbrus">НА ЮЖНОМ УРАЛЕ</p>
+
+                           <p class="Month6">июля</p>
+                           <p class="Elbrus">СПЛАВ ПО РЕКЕ</p>
+                           <p class="FromNorth">АГИДЕЛЬ</p>
+
+                           <p class="Month7">июля</p>
+                           <p class="Route">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Thirty">САКМАРА</p>
+
+                         </div>
+                    </div>
+                </div>
+                           <div class="FindOutAllHikingDates4">
+                               <a class="AllDates4" href="#">УЗНАТЬ ВСЕ ДАТЫ ПОХОДОВ</a>
+                           </div>
+        </div>
 
 
 
+                             <!-- KarpatText -->
+
+        <div id="KarpatText">
+              <h1 class="Karpat_word">КАРПАТЫ</h1>
+              <h1 class="Some_words5_1">На перевал Дятлова / На плато Маньпупунёр / Сплав по реке Земли / Национальный парк Таганай</h1>
+              <h1 class="Some_words5_2">Отдых на южном Урале / Сплав по реке Агидель / Сплав по реке Сакмара / Башкирия на ладони</h1>
+              <h1 class="Some_words5_3">Этно-тур по Башкирии "Шульган-таш (Капова пещера) / Южноуральские изюминки</h1>
+
+                <div class="More5">
+                   <a class="FindOutMore5" href="#">УЗНАТЬ ПОДРОБНЕЕ</a>
+                </div>
+
+
+            <div class="UpcomingHikes">
+                <div class="UpcomingHikesNavigation">
+                   <p class="Upcoming">БЛИЖАЙШИЕ</p>
+                   <p class="Hikes">ПОХОДЫ</p>
+                </div>
+
+                 <div class="Date1">
+                        <div class="DateNavigation">
+                          <p class="Number1">02</p>
+                          <p class="Number2">09</p>
+                          <p class="Number3">15</p>
+                          <p class="Number4">06</p>
+                          <p class="Number5">09</p>
+                          <p class="Number6">18</p>
+                          <p class="Number7">29</p>
+                        </div>
+                 </div>
+
+                    <div class="TextForDate">
+                         <div class="TextForDate1Navigation">
+
+                           <p class="Month1">июня</p>
+                           <p class="BlueLake">НА ПЕРЕВАЛ</p>
+                           <p class="Arhisa">ДЯТЛОВА</p>
+
+
+                           <p class="Month2">июня</p>
+                           <p class="HotSprings">НА ПЛАТО</p>
+                           <p class="Kavkaza1">МАНЬПУПУНЁР</p>
+
+
+                           <p class="Month3">июня</p>
+                           <p class="Arabika">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Abhazia">ЗЕЛИМ</p>
+
+                           <p class="Month4">июля</p>
+                           <p class="Svanetia">НАЦИОНАЛЬНЫЙ ПАРК</p>
+                           <p class="Gruzia">ТАГАНАЙ</p>
+
+                           <p class="Month5">июля</p>
+                           <p class="Rising">ОТДЫХ</p>
+                           <p class="OnElbrus">НА ЮЖНОМ УРАЛЕ</p>
+
+                           <p class="Month6">июля</p>
+                           <p class="Elbrus">СПЛАВ ПО РЕКЕ</p>
+                           <p class="FromNorth">АГИДЕЛЬ</p>
+
+                           <p class="Month7">июля</p>
+                           <p class="Route">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Thirty">САКМАРА</p>
+
+                         </div>
+                    </div>
+                </div>
+                           <div class="FindOutAllHikingDates5">
+                               <a class="AllDates5" href="#">УЗНАТЬ ВСЕ ДАТЫ ПОХОДОВ</a>
+                           </div>
+        </div>
+
+
+
+
+                             <!-- AsiaText -->
+
+
+        <div id="AsiaText">
+              <h1 class="Asia_word">СРЕДНЯЯ АЗИЯ</h1>
+              <h1 class="Some_words6_1">На перевал Дятлова / На плато Маньпупунёр / Сплав по реке Земли / Национальный парк Таганай</h1>
+              <h1 class="Some_words6_2">Отдых на южном Урале / Сплав по реке Агидель / Сплав по реке Сакмара / Башкирия на ладони</h1>
+              <h1 class="Some_words6_3">Этно-тур по Башкирии "Шульган-таш (Капова пещера) / Южноуральские изюминки</h1>
+
+                <div class="More6">
+                   <a class="FindOutMore6" href="#">УЗНАТЬ ПОДРОБНЕЕ</a>
+                </div>
+
+
+            <div class="UpcomingHikes">
+                <div class="UpcomingHikesNavigation">
+                   <p class="Upcoming">БЛИЖАЙШИЕ</p>
+                   <p class="Hikes">ПОХОДЫ</p>
+                </div>
+
+                 <div class="Date1">
+                        <div class="DateNavigation">
+                          <p class="Number1">03</p>
+                          <p class="Number2">10</p>
+                          <p class="Number3">18</p>
+                          <p class="Number4">02</p>
+                          <p class="Number5">04</p>
+                          <p class="Number6">15</p>
+                          <p class="Number7">21</p>
+                        </div>
+                 </div>
+
+                    <div class="TextForDate">
+                         <div class="TextForDate1Navigation">
+
+                           <p class="Month1">июня</p>
+                           <p class="BlueLake">НА ПЕРЕВАЛ</p>
+                           <p class="Arhisa">ДЯТЛОВА</p>
+
+
+                           <p class="Month2">июня</p>
+                           <p class="HotSprings">НА ПЛАТО</p>
+                           <p class="Kavkaza1">МАНЬПУПУНЁР</p>
+
+
+                           <p class="Month3">июня</p>
+                           <p class="Arabika">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Abhazia">ЗЕЛИМ</p>
+
+                           <p class="Month4">июля</p>
+                           <p class="Svanetia">НАЦИОНАЛЬНЫЙ ПАРК</p>
+                           <p class="Gruzia">ТАГАНАЙ</p>
+
+                           <p class="Month5">июля</p>
+                           <p class="Rising">ОТДЫХ</p>
+                           <p class="OnElbrus">НА ЮЖНОМ УРАЛЕ</p>
+
+                           <p class="Month6">июля</p>
+                           <p class="Elbrus">СПЛАВ ПО РЕКЕ</p>
+                           <p class="FromNorth">АГИДЕЛЬ</p>
+
+                           <p class="Month7">июля</p>
+                           <p class="Route">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Thirty">САКМАРА</p>
+
+                         </div>
+                    </div>
+                </div>
+                           <div class="FindOutAllHikingDates6">
+                               <a class="AllDates6" href="#">УЗНАТЬ ВСЕ ДАТЫ ПОХОДОВ</a>
+                           </div>
+        </div>
+
+
+
+                            <!-- TurziaText -->
+
+
+        <div id="TurziaText">
+              <h1 class="Turzia_word">ТУРЦИЯ</h1>
+              <h1 class="Some_words7_1">На перевал Дятлова / На плато Маньпупунёр / Сплав по реке Земли / Национальный парк Таганай</h1>
+              <h1 class="Some_words7_2">Отдых на южном Урале / Сплав по реке Агидель / Сплав по реке Сакмара / Башкирия на ладони</h1>
+              <h1 class="Some_words7_3">Этно-тур по Башкирии "Шульган-таш (Капова пещера) / Южноуральские изюминки</h1>
+
+                <div class="More7">
+                   <a class="FindOutMore7" href="#">УЗНАТЬ ПОДРОБНЕЕ</a>
+                </div>
+
+
+            <div class="UpcomingHikes">
+                <div class="UpcomingHikesNavigation">
+                   <p class="Upcoming">БЛИЖАЙШИЕ</p>
+                   <p class="Hikes">ПОХОДЫ</p>
+                </div>
+
+                 <div class="Date1">
+                        <div class="DateNavigation">
+                          <p class="Number1">04</p>
+                          <p class="Number2">11</p>
+                          <p class="Number3">19</p>
+                          <p class="Number4">03</p>
+                          <p class="Number5">05</p>
+                          <p class="Number6">16</p>
+                          <p class="Number7">22</p>
+                        </div>
+                 </div>
+
+                    <div class="TextForDate">
+                         <div class="TextForDate1Navigation">
+
+                           <p class="Month1">июня</p>
+                           <p class="BlueLake">НА ПЕРЕВАЛ</p>
+                           <p class="Arhisa">ДЯТЛОВА</p>
+
+
+                           <p class="Month2">июня</p>
+                           <p class="HotSprings">НА ПЛАТО</p>
+                           <p class="Kavkaza1">МАНЬПУПУНЁР</p>
+
+
+                           <p class="Month3">июня</p>
+                           <p class="Arabika">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Abhazia">ЗЕЛИМ</p>
+
+                           <p class="Month4">июля</p>
+                           <p class="Svanetia">НАЦИОНАЛЬНЫЙ ПАРК</p>
+                           <p class="Gruzia">ТАГАНАЙ</p>
+
+                           <p class="Month5">июля</p>
+                           <p class="Rising">ОТДЫХ</p>
+                           <p class="OnElbrus">НА ЮЖНОМ УРАЛЕ</p>
+
+                           <p class="Month6">июля</p>
+                           <p class="Elbrus">СПЛАВ ПО РЕКЕ</p>
+                           <p class="FromNorth">АГИДЕЛЬ</p>
+
+                           <p class="Month7">июля</p>
+                           <p class="Route">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Thirty">САКМАРА</p>
+
+                         </div>
+                    </div>
+                </div>
+                           <div class="FindOutAllHikingDates7">
+                               <a class="AllDates7" href="#">УЗНАТЬ ВСЕ ДАТЫ ПОХОДОВ</a>
+                           </div>
+        </div>
+
+
+
+
+                              <!-- NorvegiaText -->
+
+
+        <div id="NorvegiaText">
+              <h1 class="Norvegia_word">НОРВЕГИЯ</h1>
+              <h1 class="Some_words8_1">На перевал Дятлова / На плато Маньпупунёр / Сплав по реке Земли / Национальный парк Таганай</h1>
+              <h1 class="Some_words8_2">Отдых на южном Урале / Сплав по реке Агидель / Сплав по реке Сакмара / Башкирия на ладони</h1>
+              <h1 class="Some_words8_3">Этно-тур по Башкирии "Шульган-таш (Капова пещера) / Южноуральские изюминки</h1>
+
+                <div class="More8">
+                   <a class="FindOutMore8" href="#">УЗНАТЬ ПОДРОБНЕЕ</a>
+                </div>
+
+
+            <div class="UpcomingHikes">
+                <div class="UpcomingHikesNavigation">
+                   <p class="Upcoming">БЛИЖАЙШИЕ</p>
+                   <p class="Hikes">ПОХОДЫ</p>
+                </div>
+
+                 <div class="Date1">
+                        <div class="DateNavigation">
+                          <p class="Number1">05</p>
+                          <p class="Number2">12</p>
+                          <p class="Number3">20</p>
+                          <p class="Number4">04</p>
+                          <p class="Number5">06</p>
+                          <p class="Number6">17</p>
+                          <p class="Number7">23</p>
+                        </div>
+                 </div>
+
+                    <div class="TextForDate">
+                         <div class="TextForDate1Navigation">
+
+                           <p class="Month1">июня</p>
+                           <p class="BlueLake">НА ПЕРЕВАЛ</p>
+                           <p class="Arhisa">ДЯТЛОВА</p>
+
+
+                           <p class="Month2">июня</p>
+                           <p class="HotSprings">НА ПЛАТО</p>
+                           <p class="Kavkaza1">МАНЬПУПУНЁР</p>
+
+
+                           <p class="Month3">июня</p>
+                           <p class="Arabika">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Abhazia">ЗЕЛИМ</p>
+
+                           <p class="Month4">июля</p>
+                           <p class="Svanetia">НАЦИОНАЛЬНЫЙ ПАРК</p>
+                           <p class="Gruzia">ТАГАНАЙ</p>
+
+                           <p class="Month5">июля</p>
+                           <p class="Rising">ОТДЫХ</p>
+                           <p class="OnElbrus">НА ЮЖНОМ УРАЛЕ</p>
+
+                           <p class="Month6">июля</p>
+                           <p class="Elbrus">СПЛАВ ПО РЕКЕ</p>
+                           <p class="FromNorth">АГИДЕЛЬ</p>
+
+                           <p class="Month7">июля</p>
+                           <p class="Route">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Thirty">САКМАРА</p>
+
+                         </div>
+                    </div>
+                </div>
+                           <div class="FindOutAllHikingDates8">
+                               <a class="AllDates8" href="#">УЗНАТЬ ВСЕ ДАТЫ ПОХОДОВ</a>
+                           </div>
+        </div>
+
+
+                                <!-- IslandiaText -->
+
+
+        <div id="IslandiaText">
+              <h1 class="Islandia_word">ИСЛАНДИЯ</h1>
+              <h1 class="Some_words9_1">На перевал Дятлова / На плато Маньпупунёр / Сплав по реке Земли / Национальный парк Таганай</h1>
+              <h1 class="Some_words9_2">Отдых на южном Урале / Сплав по реке Агидель / Сплав по реке Сакмара / Башкирия на ладони</h1>
+              <h1 class="Some_words9_3">Этно-тур по Башкирии "Шульган-таш (Капова пещера) / Южноуральские изюминки</h1>
+
+                <div class="More9">
+                   <a class="FindOutMore9" href="#">УЗНАТЬ ПОДРОБНЕЕ</a>
+                </div>
+
+
+            <div class="UpcomingHikes">
+                <div class="UpcomingHikesNavigation">
+                   <p class="Upcoming">БЛИЖАЙШИЕ</p>
+                   <p class="Hikes">ПОХОДЫ</p>
+                </div>
+
+                 <div class="Date1">
+                        <div class="DateNavigation">
+                          <p class="Number1">03</p>
+                          <p class="Number2">11</p>
+                          <p class="Number3">18</p>
+                          <p class="Number4">03</p>
+                          <p class="Number5">07</p>
+                          <p class="Number6">18</p>
+                          <p class="Number7">25</p>
+                        </div>
+                 </div>
+
+                    <div class="TextForDate">
+                         <div class="TextForDate1Navigation">
+
+                           <p class="Month1">июня</p>
+                           <p class="BlueLake">НА ПЕРЕВАЛ</p>
+                           <p class="Arhisa">ДЯТЛОВА</p>
+
+
+                           <p class="Month2">июня</p>
+                           <p class="HotSprings">НА ПЛАТО</p>
+                           <p class="Kavkaza1">МАНЬПУПУНЁР</p>
+
+
+                           <p class="Month3">июня</p>
+                           <p class="Arabika">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Abhazia">ЗЕЛИМ</p>
+
+                           <p class="Month4">июля</p>
+                           <p class="Svanetia">НАЦИОНАЛЬНЫЙ ПАРК</p>
+                           <p class="Gruzia">ТАГАНАЙ</p>
+
+                           <p class="Month5">июля</p>
+                           <p class="Rising">ОТДЫХ</p>
+                           <p class="OnElbrus">НА ЮЖНОМ УРАЛЕ</p>
+
+                           <p class="Month6">июля</p>
+                           <p class="Elbrus">СПЛАВ ПО РЕКЕ</p>
+                           <p class="FromNorth">АГИДЕЛЬ</p>
+
+                           <p class="Month7">июля</p>
+                           <p class="Route">СПЛАВ ПО РЕКЕ</p>
+                           <p class="Thirty">САКМАРА</p>
+
+                         </div>
+                    </div>
+                </div>
+                           <div class="FindOutAllHikingDates9">
+                               <a class="AllDates9" href="#">УЗНАТЬ ВСЕ ДАТЫ ПОХОДОВ</a>
+                           </div>
+        </div>
 
 
 

@@ -859,3 +859,974 @@ ul.main-navigation li {
 	padding-top: 198px;
 	width: 100%;
 }
+
+.Vel2 {
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	font-size: 12px;
+	margin: 0;
+	margin-top: 0;
+	color: white;
+	margin-bottom: 1px;
+	opacity: 0.90;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+.Ural_word {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 54px;
+	margin: 0;
+	margin-top: 0;
+	color: white;
+	font-weight: bold;
+	opacity: 0.99;
+	letter-spacing: 5px;
+}
+
+
+
+.Some_words2_1 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 8px;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words2_2 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words2_3 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	color: white;
+	opacity: 0.85;
+}
+
+    /*=======Кнопка узнать больше2======*/
+
+
+
+.More2 {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.FindOutMore2 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	opacity: 0.92;
+	font-size:12px;
+	position: relative;
+	color: white;
+	border: 1.1px dashed #FFBB3E;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 19px;
+	padding-left: 19px;
+}
+
+.FindOutMore2:hover {
+	background: #FFBB3E;
+	color: black;
+	transition: 0.3s;
+    text-shadow:0px 1px 2px white;
+}
+
+
+
+
+   /*======Узнать все даты походов2*/
+
+.FindOutAllHikingDates2{
+	padding-top: 1em;
+	text-align: center;
+	padding-left: 6em;
+}
+
+.AllDates2 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+	border: 1.1px double white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 12px;
+	padding-left: 12px;
+	position: relative;
+}
+
+
+.AllDates2:hover {
+	background: white;
+	color: black;
+	transition: 0.3s;
+}
+
+
+
+              /*======KrimText======*/
+
+
+#KrimText {
+	height: 165px;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 198px;
+	width: 100%;
+}
+
+
+.Krim_word {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 54px;
+	margin: 0;
+	margin-top: 0;
+	color: white;
+	font-weight: bold;
+	opacity: 0.99;
+	letter-spacing: 5px;
+}
+
+
+
+.Some_words3_1 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 8px;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words3_2 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words3_3 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	color: white;
+	opacity: 0.85;
+}
+
+    /*=======Кнопка узнать больше3======*/
+
+
+
+.More3 {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.FindOutMore3 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	opacity: 0.92;
+	font-size:12px;
+	position: relative;
+	color: white;
+	border: 1.1px dashed #FFBB3E;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 19px;
+	padding-left: 19px;
+}
+
+.FindOutMore3:hover {
+	background: #FFBB3E;
+	color: black;
+	transition: 0.3s;
+    text-shadow:0px 1px 2px white;
+}
+
+
+
+
+   /*======Узнать все даты походов3*/
+
+.FindOutAllHikingDates3{
+	padding-top: 1em;
+	text-align: center;
+	padding-left: 6em;
+}
+
+.AllDates3 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+	border: 1.1px double white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 12px;
+	padding-left: 12px;
+	position: relative;
+}
+
+
+.AllDates3:hover {
+	background: white;
+	color: black;
+	transition: 0.3s;
+}
+
+              /*======ArmeniaText======*/
+
+
+#ArmeniaText {
+	height: 165px;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 198px;
+	width: 100%;
+}
+
+
+.Armenia_word {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 54px;
+	margin: 0;
+	margin-top: 0;
+	color: white;
+	font-weight: bold;
+	opacity: 0.99;
+	letter-spacing: 5px;
+}
+
+
+
+.Some_words4_1 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 8px;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words4_2 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words4_3 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	color: white;
+	opacity: 0.85;
+}
+
+    /*=======Кнопка узнать больше4======*/
+
+
+
+.More4 {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.FindOutMore4 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	opacity: 0.92;
+	font-size:12px;
+	position: relative;
+	color: white;
+	border: 1.1px dashed #FFBB3E;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 19px;
+	padding-left: 19px;
+}
+
+.FindOutMore4:hover {
+	background: #FFBB3E;
+	color: black;
+	transition: 0.3s;
+    text-shadow:0px 1px 2px white;
+}
+
+
+
+
+   /*======Узнать все даты походов4*/
+
+.FindOutAllHikingDates4{
+	padding-top: 1em;
+	text-align: center;
+	padding-left: 6em;
+}
+
+.AllDates4 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+	border: 1.1px double white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 12px;
+	padding-left: 12px;
+	position: relative;
+}
+
+
+.AllDates4:hover {
+	background: white;
+	color: black;
+	transition: 0.3s;
+}
+
+
+
+             /*======KarpatText======*/
+
+
+#KarpatText {
+	height: 165px;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 198px;
+	width: 100%;
+}
+
+
+.Karpat_word {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 54px;
+	margin: 0;
+	margin-top: 0;
+	color: white;
+	font-weight: bold;
+	opacity: 0.99;
+	letter-spacing: 5px;
+}
+
+
+
+.Some_words5_1 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 8px;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words5_2 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words5_3 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	color: white;
+	opacity: 0.85;
+}
+
+
+    /*=======Кнопка узнать больше5======*/
+
+
+.More5 {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.FindOutMore5 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	opacity: 0.92;
+	font-size:12px;
+	position: relative;
+	color: white;
+	border: 1.1px dashed #FFBB3E;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 19px;
+	padding-left: 19px;
+}
+
+.FindOutMore5:hover {
+	background: #FFBB3E;
+	color: black;
+	transition: 0.3s;
+    text-shadow:0px 1px 2px white;
+}
+
+
+
+
+   /*======Узнать все даты походов5*/
+
+.FindOutAllHikingDates5{
+	padding-top: 1em;
+	text-align: center;
+	padding-left: 6em;
+}
+
+.AllDates5 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+	border: 1.1px double white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 12px;
+	padding-left: 12px;
+	position: relative;
+}
+
+
+.AllDates5:hover {
+	background: white;
+	color: black;
+	transition: 0.3s;
+}
+
+
+
+             /*======AsiaText======*/
+
+
+#AsiaText {
+	height: 165px;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 198px;
+	width: 100%;
+}
+
+
+.Asia_word {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 54px;
+	margin: 0;
+	margin-top: 0;
+	color: white;
+	font-weight: bold;
+	opacity: 0.99;
+	letter-spacing: 5px;
+}
+
+
+
+.Some_words6_1 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 8px;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words6_2 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words6_3 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	color: white;
+	opacity: 0.85;
+}
+
+
+    /*=======Кнопка узнать больше6======*/
+
+
+.More6 {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.FindOutMore6 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	opacity: 0.92;
+	font-size:12px;
+	position: relative;
+	color: white;
+	border: 1.1px dashed #FFBB3E;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 19px;
+	padding-left: 19px;
+}
+
+.FindOutMore6:hover {
+	background: #FFBB3E;
+	color: black;
+	transition: 0.3s;
+    text-shadow:0px 1px 2px white;
+}
+
+
+
+
+   /*======Узнать все даты походов6*/
+
+.FindOutAllHikingDates6{
+	padding-top: 1em;
+	text-align: center;
+	padding-left: 6em;
+}
+
+.AllDates6 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+	border: 1.1px double white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 12px;
+	padding-left: 12px;
+	position: relative;
+}
+
+
+.AllDates6:hover {
+	background: white;
+	color: black;
+	transition: 0.3s;
+}
+
+
+
+             /*======TurziaText======*/
+
+
+#TurziaText {
+	height: 165px;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 198px;
+	width: 100%;
+}
+
+
+.Turzia_word {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 54px;
+	margin: 0;
+	margin-top: 0;
+	color: white;
+	font-weight: bold;
+	opacity: 0.99;
+	letter-spacing: 5px;
+}
+
+
+
+.Some_words7_1 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 8px;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words7_2 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words7_3 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	color: white;
+	opacity: 0.85;
+}
+
+
+    /*=======Кнопка узнать больше7======*/
+
+
+.More7 {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.FindOutMore7 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	opacity: 0.92;
+	font-size:12px;
+	position: relative;
+	color: white;
+	border: 1.1px dashed #FFBB3E;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 19px;
+	padding-left: 19px;
+}
+
+.FindOutMore7:hover {
+	background: #FFBB3E;
+	color: black;
+	transition: 0.3s;
+    text-shadow:0px 1px 2px white;
+}
+
+
+
+
+   /*======Узнать все даты походов7*/
+
+.FindOutAllHikingDates7{
+	padding-top: 1em;
+	text-align: center;
+	padding-left: 6em;
+}
+
+.AllDates7 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+	border: 1.1px double white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 12px;
+	padding-left: 12px;
+	position: relative;
+}
+
+
+.AllDates7:hover {
+	background: white;
+	color: black;
+	transition: 0.3s;
+}
+
+
+             /*======NorvegiaText======*/
+
+
+#NorvegiaText {
+	height: 165px;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 198px;
+	width: 100%;
+}
+
+
+.Norvegia_word {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 54px;
+	margin: 0;
+	margin-top: 0;
+	color: white;
+	font-weight: bold;
+	opacity: 0.99;
+	letter-spacing: 5px;
+}
+
+
+
+.Some_words8_1 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 8px;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words8_2 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words8_3 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	color: white;
+	opacity: 0.85;
+}
+
+
+    /*=======Кнопка узнать больше8======*/
+
+
+.More8 {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.FindOutMore8 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	opacity: 0.92;
+	font-size:12px;
+	position: relative;
+	color: white;
+	border: 1.1px dashed #FFBB3E;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 19px;
+	padding-left: 19px;
+}
+
+.FindOutMore8:hover {
+	background: #FFBB3E;
+	color: black;
+	transition: 0.3s;
+    text-shadow:0px 1px 2px white;
+}
+
+
+
+
+   /*======Узнать все даты походов8*/
+
+.FindOutAllHikingDates8{
+	padding-top: 1em;
+	text-align: center;
+	padding-left: 6em;
+}
+
+.AllDates8 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+	border: 1.1px double white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 12px;
+	padding-left: 12px;
+	position: relative;
+}
+
+
+.AllDates8:hover {
+	background: white;
+	color: black;
+	transition: 0.3s;
+}
+
+
+
+            /*======IslandiaText======*/
+
+
+#IslandiaText {
+	height: 165px;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 198px;
+	width: 100%;
+}
+
+
+.Islandia_word {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 54px;
+	margin: 0;
+	margin-top: 0;
+	color: white;
+	font-weight: bold;
+	opacity: 0.99;
+	letter-spacing: 5px;
+}
+
+
+
+.Some_words9_1 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 8px;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words9_2 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	margin-bottom: 2px;
+	color: white;
+	opacity: 0.85;
+}
+
+.Some_words9_3 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+	color: white;
+	opacity: 0.85;
+}
+
+
+    /*=======Кнопка узнать больше8======*/
+
+
+.More9 {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.FindOutMore9 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	opacity: 0.92;
+	font-size:12px;
+	position: relative;
+	color: white;
+	border: 1.1px dashed #FFBB3E;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 19px;
+	padding-left: 19px;
+}
+
+.FindOutMore9:hover {
+	background: #FFBB3E;
+	color: black;
+	transition: 0.3s;
+    text-shadow:0px 1px 2px white;
+}
+
+
+
+
+   /*======Узнать все даты походов8*/
+
+.FindOutAllHikingDates9{
+	padding-top: 1em;
+	text-align: center;
+	padding-left: 6em;
+}
+
+.AllDates9 {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+	border: 1.1px double white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 12px;
+	padding-left: 12px;
+	position: relative;
+}
+
+
+.AllDates9:hover {
+	background: white;
+	color: black;
+	transition: 0.3s;
+}
