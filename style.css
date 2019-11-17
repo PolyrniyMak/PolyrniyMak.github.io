@@ -50,7 +50,7 @@ body {
 .tur {
 	color: #fff;
 	text-decoration: none;
-	font-size:11px;
+	font-size: 11px;
 	position: absolute;
 	left: 438px;
 	opacity: 0.95;
@@ -154,6 +154,7 @@ body {
 	font-size: 12px;
 	margin: 0;
 	margin-top: 0;
+	font-weight: bold;
 }
 
 
@@ -177,6 +178,7 @@ body {
 	margin: 0;
 	margin-top: 0;
 	color: #412b15;
+	font-weight: bold;
 }
 
 .text3 {
@@ -187,6 +189,7 @@ body {
 	margin: 0;
 	margin-top: 0;
 	color: #412b15;
+	font-weight: bold;
 	}
 
 
@@ -1852,6 +1855,7 @@ ul.main-navigation li {
 	font-size: 12px;
 	margin: 0;
 	margin-top: 0;
+	font-weight: bold;
 }
 
 
@@ -1875,6 +1879,7 @@ ul.main-navigation li {
 	margin: 0;
 	margin-top: 0;
 	color: #412b15;
+	font-weight: bold;
 }
 
 .text2_3 {
@@ -1885,6 +1890,7 @@ ul.main-navigation li {
 	margin: 0;
 	margin-top: 0;
 	color: #412b15;
+	font-weight: bold;
 	}
 
 
@@ -1971,7 +1977,6 @@ ul.main-navigation li {
 
 
 .DownBlock {
-	height: 65%;
 	display: flex;
 	background-attachment: scroll;
     position: relative;

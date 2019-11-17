@@ -1,7 +1,926 @@
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (max-device-height: 811px)
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px)
 {
 	.header__fon {
-		width: 320px;
-		height: 568px;
+		height: 200px;
+		background-size: 320px 200px;
+		margin-bottom: 2px;
 	}
+
+	.header__words {
+		padding: 0;
+	}
+
+	.tur {
+		padding-top: 58px;
+		left: 95px;
+		font-size: 4px;
+	}
+
+	.tur:hover {
+		font-size: 4px;
+	}
+
+	.foto {
+		padding-top: 58px;
+		left: 110px;
+		font-size: 4px;
+	}
+
+	.foto:hover {
+		font-size: 4px;
+	}
+
+	.us {
+		padding-top: 58px;
+		left: 187px;
+		font-size: 4px;
+	}
+
+	.us:hover {
+		font-size: 4px;
+	}
+
+	.contact {
+		padding-top: 58px;
+		left: 205px;
+		font-size: 4px;
+	}
+
+	.contact:hover {
+		font-size: 4px;
+	}
+
+
+	            /*======Слова между картинками======*/
+
+	#just__words {
+		height: 70px;
+		margin-bottom: 0px;
+	}
+
+	.text1 {
+		font-size: 6px;
+	}
+
+	.route_selection {
+		font-size: 16px;
+		margin: 1.2px;
+	}
+	.text2 {
+		font-size: 7px;
+	}
+
+	.text3 {
+		font-size: 7px;
+	}
+
+
+            /*=====Главная часть=====*/
+
+#main_fon {
+	background-size: 320px 380px;
+	height: 380px;
+
+}
+
+.contentmenu {
+	margin-left: 30px;
+	padding-top: 0px;
+	height: 1px;
+}
+
+
+li {
+	height: 0;
+}
+
+#Kavkaz {
+	font-size: 5px;
+}
+
+#Ural {
+	font-size: 5px;
+}
+
+#Krim {
+	font-size: 5px;
+}
+
+#Armenia {
+	font-size: 5px;
+}
+
+#Karpat {
+	font-size: 5px;
+}
+
+#Asia {
+	font-size: 5px;
+}
+
+#Turzia {
+	font-size: 5px;
+}
+
+#Norvegia {
+	font-size: 5px;
+}
+
+#Islandia {
+	font-size: 5px;
+}
+
+
+         /*=====KavkazText=====*/
+
+#KavkazText {
+	padding-top: 80px;
+}
+
+.Vel {
+	font-size: 5px;
+}
+
+.Kavkaz_word {
+	font-size: 16px;
+}
+
+.Some_words {
+	font-size: 4px;
+	margin-top: 2px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words2 {
+	font-size: 4px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words3 {
+	font-size: 4px;
+}
+
+
+        /*=====Кнопка узнать подробнее======*/
+
+.More {
+    padding-top: 3px;
+    height: 8px;
+}
+
+.FindOutMore {
+	font-size: 4px;
+	border: 0.5px dashed #FFBB3E;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+
+.UpcomingHikesNavigation {
+	padding-top: 35px;
+}
+
+.Upcoming {
+	font-size: 5.5px;
+}
+
+.Hikes {
+	font-size: 5.5px;
+}
+
+
+       /*=====Даты=====*/
+
+.Number1 {
+	font-size: 17px;
+	padding-top: 29.7px;
+	padding-left: 11px;
+}
+
+.Number2 {
+	font-size: 17px;
+	padding-left: 11px;
+}
+
+.Number3 {
+	font-size: 17px;
+	padding-left: 11px;
+}
+
+.Number4 {
+	font-size: 17px;
+	padding-left: 11px;
+}
+
+.Number5 {
+	font-size: 17px;
+	padding-left: 11px;
+}
+
+.Number6 {
+	font-size: 17px;
+	padding-left: 11px;
+}
+
+.Number7 {
+	font-size: 17px;
+	padding-left: 11px;
+}
+
+          /*======Месяца и слова======*/
+
+
+.TextForDate {
+	width: 150px;
+}
+
+.TextForDate1Navigation {
+	padding-top: 33px;
+	margin-left: 10px;
+}
+
+.Month1 {
+	font-size: 5px;
+	margin-bottom: 1.5px;
+}
+
+.BlueLake {
+	font-size: 3px;
+}
+
+.Arhisa {
+	font-size: 3px;
+}
+
+
+.Month2 {
+	font-size: 5px;
+	margin-bottom: 1.5px;
+	padding-top: 8px;
+}
+
+.HotSprings {
+	font-size: 3px;
+}
+
+.Kavkaza1 {
+	font-size: 3px;
+}
+
+
+.Month3 {
+	font-size: 5px;
+	margin-bottom: 1.5px;
+	padding-top: 8px;
+}
+
+.Arabika {
+	font-size: 3px;
+}
+
+.Abhazia {
+	font-size: 3px;
+}
+
+
+.Month4 {
+	font-size: 5px;
+	margin-bottom: 1.5px;
+	padding-top: 8px;
+}
+
+.Svanetia {
+	font-size: 3px;
+}
+
+.Gruzia {
+	font-size: 3px;
+}
+
+
+.Month5 {
+	font-size: 5px;
+	margin-bottom: 1.5px;
+	padding-top: 7.9px;
+}
+
+.Rising {
+	font-size: 3px;
+}
+
+.OnElbrus {
+	font-size: 3px;
+}
+
+
+.Month6 {
+	font-size: 5px;
+	margin-bottom: 1.5px;
+	padding-top: 7.8px;
+}
+
+.Elbrus {
+	font-size: 3px;
+}
+
+.FromNorth {
+	font-size: 3px;
+}
+
+
+.Month7 {
+	font-size: 5px;
+	margin-bottom: 1.5px;
+	padding-top: 7.7px;
+}
+
+.Route {
+	font-size: 3px;
+}
+
+.Thirty {
+	font-size: 3px;
+}
+
+
+
+          /*======Узнать все даты походов======*/
+.FindOutAllHikingDates{
+	padding-top: 0px;
+	padding-left: 110px;
+	height: 1px;
+	width: 140px;
+}
+
+.AllDates {
+	font-size: 3px;
+	border: 0.1px double white;
+	padding-top: 3.8px;
+	padding-bottom: 3px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+         /*======Фотоотчеты=======*/
+
+.FonForPhotoReports {
+	background-size: 320px;
+	height: 200px;
+}
+
+.OpenText {
+	margin-top: 8px;
+}
+
+.text2_1 {
+	font-size: 4px;
+}
+
+.WordPhotoReports {
+	font-size: 8px;
+	margin-bottom: 2.5px;
+}
+
+.text2_2 {
+	font-size: 3.9px;
+}
+
+.text2_3 {
+	font-size: 3.9px;
+}
+
+
+.PhotoBlocks {
+	padding-top: 10px;
+	padding-left: 14px;
+	padding-right: 0px;
+	height: 80px;
+	width: 290px;
+}
+
+
+.UpBlock {
+	padding-left: 6px;
+	padding-top: 5px;
+}
+
+.UpBlockText1 {
+	font-size: 3px; 
+}
+
+.UpBlockText2 {
+	font-size: 3px; 
+}
+
+.UpBlockText3 {
+	font-size: 3px; 
+}
+
+.UpBlockText4 {
+	font-size: 3px;
+	margin-top: 2px; 
+}
+
+.UpBlockText5 {
+	font-size: 3px; 
+}
+
+
+.DownBlock {
+	height: 97px;
+	width: 96.67px;
+}
+
+.SecondBlock {
+	height: 130px;
+}
+
+.ThirdBlock {
+	height: 130px;
+}
+
+
+     /*=======Слова Исландия=======*/
+
+.IslandiaTextInFotoBlock {
+	position: absolute;
+	margin-left: 12em;
+	margin-top: 4.3em;
+}
+
+.IslInBlock1 {
+	font-size: 6px; 
+}
+
+.IslInBlock2 {
+	font-size: 8px; 
+}
+
+.IslInBlock3 {
+	font-size: 4px;
+}
+
+.IslInBlock4 {
+	font-size: 4px;
+}
+
+
+
+
+
+     /*=======Ссылки в контент меню=======*/
+
+     /*=====UralText=====*/
+
+#UralText {
+	padding-top: 80px;
+}
+
+.Vel2 {
+	font-size: 5px;
+}
+
+.Ural_word {
+	font-size: 16px;
+}
+
+.Some_words2_1 {
+	font-size: 4px;
+	margin-top: 2px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words2_2 {
+	font-size: 4px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words2_3 {
+	font-size: 4px;
+}
+
+.More2 {
+    padding-top: 3px;
+    height: 8px;
+}
+
+.FindOutMore2 {
+	font-size: 4px;
+	border: 0.5px dashed #FFBB3E;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.FindOutAllHikingDates2{
+	padding-top: 0px;
+	padding-left: 110px;
+	height: 1px;
+	width: 140px;
+}
+
+.AllDates2 {
+	font-size: 3px;
+	border: 0.1px double white;
+	padding-top: 3.8px;
+	padding-bottom: 3px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+
+      /*======KrimText======*/
+
+#KrimText {
+	padding-top: 80px;
+}
+
+.Krim_word {
+	font-size: 16px;
+}
+
+.Some_words3_1 {
+	font-size: 4px;
+	margin-top: 2px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words3_2 {
+	font-size: 4px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words3_3 {
+	font-size: 4px;
+}
+
+.More3 {
+    padding-top: 3px;
+    height: 8px;
+}
+
+.FindOutMore3 {
+	font-size: 4px;
+	border: 0.5px dashed #FFBB3E;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.FindOutAllHikingDates3{
+	padding-top: 0px;
+	padding-left: 110px;
+	height: 1px;
+	width: 140px;
+}
+
+.AllDates3 {
+	font-size: 3px;
+	border: 0.1px double white;
+	padding-top: 3.8px;
+	padding-bottom: 3px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+
+
+     /*======ArmeniaText======*/
+
+#ArmeniaText {
+	padding-top: 80px;
+}
+
+.Armenia_word {
+	font-size: 16px;
+}
+
+.Some_words4_1 {
+	font-size: 4px;
+	margin-top: 2px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words4_2 {
+	font-size: 4px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words4_3 {
+	font-size: 4px;
+}
+
+.More4 {
+    padding-top: 3px;
+    height: 8px;
+}
+
+.FindOutMore4 {
+	font-size: 4px;
+	border: 0.5px dashed #FFBB3E;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.FindOutAllHikingDates4{
+	padding-top: 0px;
+	padding-left: 110px;
+	height: 1px;
+	width: 140px;
+}
+
+.AllDates4 {
+	font-size: 3px;
+	border: 0.1px double white;
+	padding-top: 3.8px;
+	padding-bottom: 3px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+
+       /*======KarpatText======*/
+
+#KarpatText {
+	padding-top: 80px;
+}
+
+.Karpat_word {
+	font-size: 16px;
+}
+
+.Some_words5_1 {
+	font-size: 4px;
+	margin-top: 2px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words5_2 {
+	font-size: 4px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words5_3 {
+	font-size: 4px;
+}
+
+.More5 {
+    padding-top: 3px;
+    height: 8px;
+}
+
+.FindOutMore5 {
+	font-size: 4px;
+	border: 0.5px dashed #FFBB3E;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.FindOutAllHikingDates5{
+	padding-top: 0px;
+	padding-left: 110px;
+	height: 1px;
+	width: 140px;
+}
+
+.AllDates5 {
+	font-size: 3px;
+	border: 0.1px double white;
+	padding-top: 3.8px;
+	padding-bottom: 3px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+          /*======AsiaText======*/
+
+#AsiaText {
+	padding-top: 80px;
+}
+
+.Asia_word {
+	font-size: 16px;
+}
+
+.Some_words6_1 {
+	font-size: 4px;
+	margin-top: 2px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words6_2 {
+	font-size: 4px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words6_3 {
+	font-size: 4px;
+}
+
+.More6 {
+    padding-top: 3px;
+    height: 8px;
+}
+
+.FindOutMore6 {
+	font-size: 4px;
+	border: 0.5px dashed #FFBB3E;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.FindOutAllHikingDates6{
+	padding-top: 0px;
+	padding-left: 110px;
+	height: 1px;
+	width: 140px;
+}
+
+.AllDates6 {
+	font-size: 3px;
+	border: 0.1px double white;
+	padding-top: 3.8px;
+	padding-bottom: 3px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+
+       /*======TurziaText======*/
+
+#TurziaText {
+	padding-top: 80px;
+}
+
+.Turzia_word {
+	font-size: 16px;
+}
+
+.Some_words7_1 {
+	font-size: 4px;
+	margin-top: 2px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words7_2 {
+	font-size: 4px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words7_3 {
+	font-size: 4px;
+}
+
+.More7 {
+    padding-top: 3px;
+    height: 8px;
+}
+
+.FindOutMore7 {
+	font-size: 4px;
+	border: 0.5px dashed #FFBB3E;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.FindOutAllHikingDates7{
+	padding-top: 0px;
+	padding-left: 110px;
+	height: 1px;
+	width: 140px;
+}
+
+.AllDates7 {
+	font-size: 3px;
+	border: 0.1px double white;
+	padding-top: 3.8px;
+	padding-bottom: 3px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+
+      /*======NorvegiaText======*/
+
+#NorvegiaText {
+	padding-top: 80px;
+}
+
+.Norvegia_word {
+	font-size: 16px;
+}
+
+.Some_words8_1 {
+	font-size: 4px;
+	margin-top: 2px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words8_2 {
+	font-size: 4px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words8_3 {
+	font-size: 4px;
+}
+
+.More8 {
+    padding-top: 3px;
+    height: 8px;
+}
+
+.FindOutMore8 {
+	font-size: 4px;
+	border: 0.5px dashed #FFBB3E;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.FindOutAllHikingDates8{
+	padding-top: 0px;
+	padding-left: 110px;
+	height: 1px;
+	width: 140px;
+}
+
+.AllDates8 {
+	font-size: 3px;
+	border: 0.1px double white;
+	padding-top: 3.8px;
+	padding-bottom: 3px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+
+       /*======IslandiaText======*/
+
+#IslandiaText {
+	padding-top: 80px;
+}
+
+.Islandia_word {
+	font-size: 16px;
+}
+
+.Some_words9_1 {
+	font-size: 4px;
+	margin-top: 2px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words9_2 {
+	font-size: 4px;
+	margin-bottom: 0.2px;
+}
+
+.Some_words9_3 {
+	font-size: 4px;
+}
+
+.More9 {
+    padding-top: 3px;
+    height: 8px;
+}
+
+.FindOutMore9 {
+	font-size: 4px;
+	border: 0.5px dashed #FFBB3E;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.FindOutAllHikingDates9{
+	padding-top: 0px;
+	padding-left: 110px;
+	height: 1px;
+	width: 140px;
+}
+
+.AllDates9 {
+	font-size: 3px;
+	border: 0.1px double white;
+	padding-top: 3.8px;
+	padding-bottom: 3px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
 }
