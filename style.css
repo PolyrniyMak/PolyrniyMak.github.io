@@ -22,7 +22,7 @@ body {
 /*======Header Background======*/
 
 .header__fon {
-	background-image: url(Gora1.jpg);
+	background-image: url(foto/Gora1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: scroll;
@@ -199,7 +199,7 @@ body {
 
 
 #main_fon {
-	background-image: url(woman1.jpg);
+	background-image: url(foto/woman1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: scroll;
@@ -220,20 +220,6 @@ body {
 	padding-top: 20px;
 }
 
-.main_fon {
-	background-image: url(woman1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: scroll;
-	width:100%;
-	height: 1375px;
-    display: flex;
-    position: relative;
-    max-width: 1300px;
-    margin: auto;
-	display: flex;
-	flex-direction: column;
-}
 
 ul.main-navigation {
 	padding: 0;
@@ -1838,7 +1824,7 @@ ul.main-navigation li {
 
 
 .FonForPhotoReports {
-	background-image: url(FonForReports.jpg);
+	background-image: url(foto/FonForReports.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 600px;
@@ -1990,7 +1976,7 @@ ul.main-navigation li {
 	display: flex;
 	background-attachment: scroll;
     position: relative;
-    background-image: url(FotoA.png);
+    background-image: url(foto/FotoA.png);
     background-size: cover;
     background-position: center;
     width: 277.32px;
@@ -2002,7 +1988,7 @@ ul.main-navigation li {
 	display: flex;
 	background-attachment: scroll;
     position: relative;
-    background-image: url(FotoAB.jpg);
+    background-image: url(foto/FotoAB.jpg);
     background-size: cover;
     background-position: center;
     width: 277.32px;
@@ -2015,7 +2001,7 @@ ul.main-navigation li {
 	display: flex;
 	background-attachment: scroll;
     position: relative;
-    background-image: url(FotoABC.jpg);
+    background-image: url(foto/FotoABC.jpg);
     background-size: cover;
     background-position: center;
     width: 277.32px;
